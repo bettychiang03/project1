@@ -37,3 +37,4 @@ def play_game():
         play_again = input("還要繼續玩嗎?(y,n)")
         if play_again.lower() == 'n': #自動轉成小寫,使輸入值不受限(y/Y,n/N皆可)
             break;
+
